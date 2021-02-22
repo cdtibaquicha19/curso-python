@@ -16,7 +16,3 @@ if (nota==0):
     print("Valor desconocido")
 else:      
     print("su nota es :", nota )
-    
-
-
-    
