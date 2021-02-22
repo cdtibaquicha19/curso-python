@@ -16,8 +16,12 @@ print("Nombre de libro :" , nombre)
 print("ID :" , i)  
 print("Precio :" , precio)  
 print("envio gratuito  :" , enviogratuito)  
+<<<<<<< HEAD
 # se muestra el vtipo de dato que esta generando la variable 
 print (type(nombre))
 
 
+=======
+      
+>>>>>>> master
 
