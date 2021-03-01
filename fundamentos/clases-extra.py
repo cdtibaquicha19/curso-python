@@ -1,15 +1,15 @@
 class Persona:
-    def __init__(this, n, e,*v,**d):
-        this.nombre = n
-        this.edad = e
-        this.valores = v 
-        this.diccionario = d
+    def __init__(self, n, e,*v,**d):
+        self.nombre = n
+        self.edad = e
+        self.valores = v 
+        self.diccionario = d
         
-    def desplegar(this):
-        print("Nombre: ",this.nombre)
-        print("Edad: ",this.edad)
-        print("Valores (tupla)", this.valores)
-        print("Diccionario", this.diccionario)
+    def desplegar(self):
+        print("Nombre: ",self.nombre)
+        print("Edad: ",self.edad)
+        print("Valores (tupla)", self.valores)
+        print("Diccionario", self.diccionario)
         
 
 print()
