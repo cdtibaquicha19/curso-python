@@ -1,5 +1,4 @@
-from cuadrado import  Cuadrado
-
+from herencia_multiple.cuadrado import Cuadrado
 cuadrado = Cuadrado(4,"azul")
 
 print(cuadrado.area())
