@@ -1,7 +1,13 @@
-
 from cuadrado import Cuadrado
+from rectangulo import Rectangulo
 
-cuadrado = Cuadrado(4,"azul")
 
+cuadrado = Cuadrado(4,4,"azul")
+print(cuadrado)
 print(cuadrado.area())
-print(cuadrado.color)
+
+rectangulo = Rectangulo(4,5,"rojo")
+print(rectangulo)
+print(rectangulo.area())
+
+
