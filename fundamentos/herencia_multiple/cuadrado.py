@@ -1,5 +1,8 @@
-from herencia_multiple.figuras_geometricas import FiguraGeometrica
-from herencia_multiple.color import Color
+
+from figuras_geometricas import FiguraGeometrica
+from color import Color
+
+
 # Creamos la clase hijo
 class Cuadrado(FiguraGeometrica,Color):
     #inicializar la clase hijo y las variables a solicitar
