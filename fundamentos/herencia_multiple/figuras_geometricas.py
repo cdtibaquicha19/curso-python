@@ -1,4 +1,4 @@
-class FiguraGeometrica:
+class FiguraGeometrica():
     def __init__(self,ancho,alto):
        self.__ancho = ancho
        self.__alto = alto
@@ -17,4 +17,6 @@ class FiguraGeometrica:
         
     def set_alto(self,ancho):
          self.__ancho= ancho
+         
+
     
