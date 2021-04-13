@@ -9,7 +9,6 @@ conexion = psycopg2.connect(user='postgres',
 try:
     
     cursor = conexion.cursor()
-
    
     sql = 'INSERT INTO persona(nombre,apellido,email) VALUES (%s,%s,%s)'
     valores= ('cmaria','lara','mlara@mail.com')
